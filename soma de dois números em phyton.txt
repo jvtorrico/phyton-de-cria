@@ -1,0 +1,70 @@
+soma de dois números em phyton:
+num1= int(input("insira o numero"))
+num2= int(input('insira outro numero'))
+resultado= num1+num2
+print("a soma e:" ,resultado, "dos numeros:", num1,num2) 
+
+
+if:
+if (resultado ==3):
+                print("dentro")
+else:
+    print("fora")
+o escopo do if eou else sai pelo tab
+
+
+else if:
+if (resultado ==3):
+            print("dentro")
+    
+elif (resultado==2):
+    print("dentro dnv")
+
+operadores:o que eu sei tá em C
+potência: **
+raiz:  (2** 1/2)
+resto: 3%2 ( pra saber se o número é ímpar)
+
+portas lógicas:
+and == &&
+or= ||
+not = not var
+
+laços de repetição:
+while:
+opc=0
+
+while opc !=17:
+            print(opc)
+            opc+=1
+
+
+for: 
+cores= ['azul', 'vermelho', 'verde']
+for cor in cores: 
+    print (  cor)
+pra numerar as posições:
+cores= ['azul', 'vermelho', 'verde']
+for cor in range(3): 
+    print (  cor)
+    print(cores[cor])
+
+tipos de listas:
+list 
+
+x= ['a','b','c']
+print(x[1:2])
+
+
+
+tuple
+x=('a','b','c') # não se modifica
+
+dicionario
+
+pessoa[enzo] { 'cor': 'azul', 'numero':'2'}
+print (pessoa[torrico]['cor'])
+
+
+conjunto 
+x== {'1','2','3'} # não repete elementos e não ordena 
