@@ -68,3 +68,55 @@ print (pessoa[torrico]['cor'])
 
 conjunto 
 x== {'1','2','3'} # não repete elementos e não ordena 
+
+
+
+Aula 2
+
+Método: faz a função realizar algo a mais
+
+Métodos em lista:
+lista=["enzo","azul","16"]
+lista.append("baleia")
+print(lista)  #acrescenta baleia na lista
+
+Código para terminar:
+def soma():
+    x= int(input("digite o primeiro numero:   "))
+    y= int(input("digite o segundo numero:   "))
+    soma= x+y
+    return(soma)
+
+
+
+
+
+
+
+
+opc=1
+
+while opc!=0:
+    print("entre com sua escolha")
+    print("1 para soma")
+    print("2 para subtracao")
+    print("3 para multiplicacao")
+    print("4 pra divisao")
+    opc=int(input("escolha:   "))
+    
+    if(opc ==1):
+        soma1=soma()
+        print(soma1)
+    
+
+	
+
+
+
+
+
+
+
+Função:
+
+
