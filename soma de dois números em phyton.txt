@@ -79,35 +79,35 @@ Métodos em lista:
 lista=["enzo","azul","16"]
 lista.append("baleia")
 print(lista)  #acrescenta baleia na lista
+Função:
+
+
+
+
 
 Código para terminar:
-def soma():
-    x= int(input("digite o primeiro numero:   "))
-    y= int(input("digite o segundo numero:   "))
-    soma= x+y
-    return(soma)
 
+import random
 
+x= int(input("escolha um número de 1 a 50"))
+opc = random.getstate()
 
-
-
-
-
-
-opc=1
-
-while opc!=0:
-    print("entre com sua escolha")
-    print("1 para soma")
-    print("2 para subtracao")
-    print("3 para multiplicacao")
-    print("4 pra divisao")
-    opc=int(input("escolha:   "))
+while x != opc:
+    if (x<opc):
+        print("maior")
     
-    if(opc ==1):
-        soma1=soma()
-        print(soma1)
+    else:
+        print("menor")
+        
     
+    x= int(input("escolha outro numero"))
+    
+    
+
+print("acertou")
+   
+  
+  
 
 	
 
@@ -117,6 +117,15 @@ while opc!=0:
 
 
 
-Função:
+
+
+
+
+
+
+
+
+
+
 
 
