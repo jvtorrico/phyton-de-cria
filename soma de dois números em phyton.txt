@@ -79,7 +79,7 @@ Métodos em lista:
 lista=["enzo","azul","16"]
 lista.append("baleia")
 print(lista)  #acrescenta baleia na lista
-Função:
+
 
 
 
