@@ -1,0 +1,50 @@
+Exercícios python:
+
+Apolo:
+Casa:
+*/ escolher números aleatórios*/
+import random
+
+x = int(input("Escolha um número de 1 a 50: "))
+opc = random.randint(1, 50)
+
+while x != opc:
+    if x < opc:
+        print("Maior")
+    else:
+        print("Menor")
+
+    x = int(input("Escolha outro número: "))
+
+print("Acertou!")
+
+código para terminar:
+x=0
+soma=0
+maior=0
+salarios= []
+for s in range:
+    salario= int(input("digite seu salario:"))
+    salarios.append(salario)
+    if(maior<salario):
+                maior.append(maior)
+
+soma = sum(salario)
+
+cidades = []
+for c in range(0, 10):
+    cidade = input("digite sua cidade: ")
+    cidades.append(cidade)
+
+
+
+
+media_salario= soma / len(salario)
+
+print("a media do salario e ", media_salario)
+print("a quantidade de cidades e ", len(cidade))
+print("o maior salario e ", maior)
+
+
+
+
