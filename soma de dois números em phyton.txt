@@ -105,7 +105,40 @@ while x != opc:
     
 
 print("acertou")
-   
+
+
+
+
+
+Classe Objeto e Atributo
+   Código para terminar
+class Person:
+    
+    def __init__(self,nome,idade,genero):
+        self.nome= nome
+        self.idade = idade
+        self.funcao= funcao
+        
+
+        
+    
+    def get_name(self):
+        print(f"Nome:{self.name}")
+    
+    def get_age(self):
+        print(f"Nome: {self.nome} \nIdade: {self.age} \nGenero: {self.funcao}")
+        
+    def full_person_info(self):
+        print(f"Nome: {self.name} \nIdade:{self.age} \nGenero:{self.gender}")
+nome= input()
+idade= input()
+genero= input()
+        
+p2= Person(nome,idade,genero)
+p2.get_age()
+p2.get_name
+print("\n")
+p2.full_person_info()
   
   
 
